@@ -1,0 +1,85 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.cv-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 2.5rem;
+}
+
+header h2 {
+  margin: 5px 0 15px;
+  color: #007bff;
+  font-weight: 400;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  color: #555;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h3 {
+  color: #2c3e50;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+.job, .education {
+  margin-bottom: 20px;
+}
+
+.job h4, .education h4 {
+  margin: 0 0 5px 0;
+  color: #34495e;
+}
+
+.date {
+  font-size: 0.9em;
+  color: #7f8c8d;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 0.9em;
+}
